@@ -1,0 +1,81 @@
+2022-05-01 10:41:18.181  INFO 1784 --- [main] c.miniprojet.projet.ProjectApplication   : Starting ProjectApplication using Java 11.0.14 on DESKTOP-87CB2GV with PID 1784 (C:\Users\DRISS\Desktop\MyFiles\Projects\Spring\projet\target\classes started by DRISS in C:\Users\DRISS\Desktop\MyFiles\Projects\Spring\projet)
+2022-05-01 10:41:18.184  INFO 1784 --- [main] c.miniprojet.projet.ProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-05-01 10:41:19.249  INFO 1784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-01 10:41:19.863  INFO 1784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 569 ms. Found 11 JPA repository interfaces.
+2022-05-01 10:41:22.938  INFO 1784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-01 10:41:22.943  INFO 1784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-01 10:41:22.948  INFO 1784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-01 10:41:23.012  INFO 1784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-01 10:41:23.012  INFO 1784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4779 ms
+2022-05-01 10:41:23.217  INFO 1784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-01 10:41:23.284  INFO 1784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-01 10:41:23.458  INFO 1784 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-01 10:41:23.576  INFO 1784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-01 10:41:23.730  INFO 1784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-01 10:41:23.760  INFO 1784 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-05-01 10:41:25.459  INFO 1784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-01 10:41:25.482  INFO 1784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:41:26.166  WARN 1784 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-01 10:41:26.474  INFO 1784 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-01 10:41:27.003  INFO 1784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-01 10:41:27.014  INFO 1784 --- [main] c.miniprojet.projet.ProjectApplication   : Started ProjectApplication in 9.327 seconds (JVM running for 10.588)
+2022-05-01 10:44:02.675  INFO 9220 --- [main] c.m.projet.ProjetApplicationTests        : Starting ProjetApplicationTests using Java 11.0.14 on DESKTOP-87CB2GV with PID 9220 (started by DRISS in C:\Users\DRISS\Desktop\MyFiles\Projects\Spring\projet)
+2022-05-01 10:44:02.690  INFO 9220 --- [main] c.m.projet.ProjetApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-05-01 10:44:07.168  INFO 9220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-01 10:44:07.268  INFO 9220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 11 JPA repository interfaces.
+2022-05-01 10:44:07.984  INFO 9220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-01 10:44:08.041  INFO 9220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-01 10:44:08.229  INFO 9220 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-01 10:44:08.548  INFO 9220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-01 10:44:08.722  INFO 9220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-01 10:44:08.739  INFO 9220 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-05-01 10:44:09.642  INFO 9220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-01 10:44:09.646  INFO 9220 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:44:10.401  WARN 9220 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-01 10:44:10.726  INFO 9220 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-01 10:44:11.556  INFO 9220 --- [main] c.m.projet.ProjetApplicationTests        : Started ProjetApplicationTests in 9.809 seconds (JVM running for 11.325)
+2022-05-01 10:44:11.977  INFO 9220 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:44:11.981  INFO 9220 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-01 10:44:11.994  INFO 9220 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-01 10:44:40.002  INFO 10452 --- [main] c.m.projet.ProjetApplicationTests        : Starting ProjetApplicationTests using Java 11.0.14 on DESKTOP-87CB2GV with PID 10452 (started by DRISS in C:\Users\DRISS\Desktop\MyFiles\Projects\Spring\projet)
+2022-05-01 10:44:40.004  INFO 10452 --- [main] c.m.projet.ProjetApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-05-01 10:44:40.708  INFO 10452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-01 10:44:40.805  INFO 10452 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 11 JPA repository interfaces.
+2022-05-01 10:44:44.487  INFO 10452 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-01 10:44:44.894  INFO 10452 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-01 10:44:46.083  INFO 10452 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-01 10:44:46.602  INFO 10452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-01 10:44:46.763  INFO 10452 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-01 10:44:46.777  INFO 10452 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-05-01 10:44:47.610  INFO 10452 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-01 10:44:47.617  INFO 10452 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:44:48.450  WARN 10452 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-01 10:44:48.811  INFO 10452 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-01 10:44:49.619  INFO 10452 --- [main] c.m.projet.ProjetApplicationTests        : Started ProjetApplicationTests in 10.03 seconds (JVM running for 11.289)
+2022-05-01 10:44:50.063  INFO 10452 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:44:50.067  INFO 10452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-01 10:44:50.081  INFO 10452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-01 10:45:36.052  INFO 13816 --- [main] c.m.projet.ProjetApplicationTests        : Starting ProjetApplicationTests using Java 11.0.14 on DESKTOP-87CB2GV with PID 13816 (started by DRISS in C:\Users\DRISS\Desktop\MyFiles\Projects\Spring\projet)
+2022-05-01 10:45:36.054  INFO 13816 --- [main] c.m.projet.ProjetApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2022-05-01 10:45:36.824  INFO 13816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-01 10:45:36.930  INFO 13816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 11 JPA repository interfaces.
+2022-05-01 10:45:41.217  INFO 13816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-01 10:45:41.629  INFO 13816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-05-01 10:45:42.232  INFO 13816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-01 10:45:42.549  INFO 13816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-01 10:45:42.720  INFO 13816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-01 10:45:42.740  INFO 13816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-05-01 10:45:43.516  INFO 13816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-01 10:45:43.518  INFO 13816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:45:44.273  WARN 13816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-01 10:45:44.616  INFO 13816 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-01 10:45:45.444  INFO 13816 --- [main] c.m.projet.ProjetApplicationTests        : Started ProjetApplicationTests in 9.808 seconds (JVM running for 11.012)
+2022-05-01 10:45:45.851  INFO 13816 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:45:45.854  INFO 13816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-01 10:45:45.867  INFO 13816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-01 10:46:48.402  INFO 1784 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-01 10:46:48.402  INFO 1784 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-01 10:46:48.402  INFO 1784 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-05-01 10:48:52.615  INFO 1784 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-01 10:48:52.617  INFO 1784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-01 10:48:52.622  INFO 1784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
